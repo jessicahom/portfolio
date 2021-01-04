@@ -1,6 +1,7 @@
 body {
     max-width: 860px;
     margin: 0 auto;
+    background-color: #c2d4dd;
 }
 
 .aboutme-grid {
@@ -11,18 +12,18 @@ body {
 }
 
 .aboutme-div {
-    background-color: lightslategray;
+    background-color: #ddeedd;
 }
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr 2fr;
     grid-auto-rows: minmax(250px, auto);
     gap: 1rem;
 }
 
 .project {
-    background-color: lightslategrey;
+    background-color: #b0aac0;
 }
 
 .skills-grid {
@@ -33,14 +34,14 @@ body {
 }
 
 .skill {
-    background-color: lightyellow;
+    background-color: #f0efef;
 }
 
 .project, .skill, .aboutme-div {
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: .3rem;
 }
 
 video {
-    max-width: 50%;
+    width: 100%;
 }
