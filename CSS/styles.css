@@ -17,9 +17,37 @@ body {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(250px, auto);
     gap: 1rem;
+}
+
+#beethoven {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#paws {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#sbg {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#readathon {
+    grid-column-start: 3;
+    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 .project {
@@ -44,4 +72,9 @@ body {
 
 video {
     width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 20rem;
 }
