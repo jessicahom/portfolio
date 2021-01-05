@@ -9,11 +9,12 @@ body {
 }
 
 header {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
-li {
-    display: inline;
+nav>a {
+    background-color: #ddeedd;
 }
 
 .aboutme-grid {
@@ -81,7 +82,7 @@ li {
     background-color: #ddeedd;
 }
 
-.project, .skill, .aboutme-div, .contact-info {
+.project, .skill, .aboutme-div, .contact-info, nav>a {
     padding: 1rem;
     border-radius: .3rem;
 }
