@@ -1,8 +1,19 @@
+/* #ddeedd */
+
 body {
     max-width: 860px;
     margin: 0 auto;
     background-color: #c2d4dd;
+    box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: inline-flex;
+}
+
+li {
+    display: inline;
 }
 
 .aboutme-grid {
@@ -13,7 +24,7 @@ body {
 }
 
 .aboutme-div {
-    background-color: #ddeedd;
+    background-color: #f0efef;
 }
 
 .projects-grid {
@@ -66,7 +77,11 @@ body {
     background-color: #f0efef;
 }
 
-.project, .skill, .aboutme-div {
+.contact-info {
+    background-color: #ddeedd;
+}
+
+.project, .skill, .aboutme-div, .contact-info {
     padding: 1rem;
     border-radius: .3rem;
 }
