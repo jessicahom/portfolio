@@ -2,6 +2,7 @@ body {
     max-width: 860px;
     margin: 0 auto;
     background-color: #c2d4dd;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .aboutme-grid {
